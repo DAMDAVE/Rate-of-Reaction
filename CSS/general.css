@@ -1,0 +1,81 @@
+body{
+   background-color: rgb(213, 238, 235);
+}
+.soup{
+    margin-top: 64px;
+}
+p{
+    padding-top: 10px;
+    font-size: 20px;
+    color: greenyellow;
+
+}
+.absolute{
+    position: absolute;
+}
+.space1{
+    margin-left: 40%;
+}
+
+.space2{
+    margin-left: 28.77%;
+}
+.bg-body-tertiary{
+    width: 100%;
+    position: absolute;
+    height: 50px;
+    background-image: linear-gradient(green 5%, rgb(151, 239, 19) )  !important;
+
+}
+.material-symbols-outlined {
+    margin-top:10;
+    font-weight: 1px;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+.next-section, .home{
+    color: greenyellow;
+    background-color: inherit;
+}
+.next-section:hover, .home:hover{
+    color: aquamarine;
+    text-decoration: none;
+}
+ul{
+    padding:  0px 40px 40px 40px;
+}
+h1{
+    color: rgb(27, 150, 27);
+    text-align: center;
+    margin-top: 70px;
+}
+li{ 
+    color: greenyellow;
+    list-style-type: circle;
+    text-align: left;
+    font-size: 20px;
+    padding: 5px;
+}
+.div{
+    box-shadow: 5px 5px 5px greenyellow;
+    background-color: green;
+    margin-top: 10px;
+    width: 90%;
+    margin-bottom: 20px;
+    animation-name: move;
+    animation-duration: 5s;
+    animation-delay: 0s;
+}
+.green{
+    color: green;
+}
+.par{
+    padding: 20px;
+}
+@keyframes move{
+    0%{height: 80%; width: 0%;}
+    50%{width: 100%;}
+}

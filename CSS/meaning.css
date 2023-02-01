@@ -1,0 +1,63 @@
+body{
+    background-color: #c1c3dc;
+}
+.bg-body-tertiary{
+    background-image:linear-gradient(#2431c3, #003)  !important;
+}
+.meaning-div{
+    background-color: #090d41;
+    margin-top: 50px;
+    box-shadow: blue 5px 5px 5px;
+    animation-name: move;
+    animation-duration: 5s;
+}
+.head{
+    margin-top: 120px;
+    color: #003;
+}
+.next-div{
+    animation-name: move;
+    animation-duration: 5s;
+    margin-top: 50px;
+}
+hr{
+    color: #2431c3;
+}
+p{
+    padding: 20px;
+    font-size: 20px;
+    color: rgb(153, 154, 203);
+}
+.blue{
+    color: #003;
+}
+.next-section, .home{
+    color: rgb(255, 255, 255);
+    background-color: inherit;
+}
+.space2{
+    margin-left: 33%;
+}
+.space3{
+    margin-left: 23.77%;
+}
+@media(min-width:576px) {
+    .space2{
+        margin-left: 40%;
+    }
+    .space3{
+        text-align: right;
+    }
+}
+@media(min-width:768px){
+    .space2{
+        margin-left: 45%;
+    }
+    .space3{
+        margin-left: 35.77%;
+    }
+}
+@keyframes move{
+    0%{height: 80%; width: 0%;}
+    50%{width: 100%;}
+}
