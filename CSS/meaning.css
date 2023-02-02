@@ -7,6 +7,7 @@ body{
 .meaning-div{
     background-color: #090d41;
     margin-top: 50px;
+    width: 90%;
     box-shadow: blue 5px 5px 5px;
     animation-name: move;
     animation-duration: 5s;
@@ -16,6 +17,7 @@ body{
     color: #003;
 }
 .next-div{
+    width: 90%;
     animation-name: move;
     animation-duration: 5s;
     margin-top: 50px;
