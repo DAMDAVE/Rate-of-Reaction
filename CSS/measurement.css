@@ -49,7 +49,7 @@ body{
      text-align: center;
      margin-top: 70px;
  }
- .div{
+ .div, .last-div{
      margin-top: 10px;
      width: 90%;
      margin-bottom: 20px;
