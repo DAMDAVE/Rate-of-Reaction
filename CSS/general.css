@@ -21,9 +21,6 @@ p{
     margin-left: 28.77%;
 }
 .bg-body-tertiary{
-    width: 100%;
-    position: absolute;
-    height: 50px;
     background-image: linear-gradient(green 5%, rgb(151, 239, 19) )  !important;
 
 }
@@ -41,8 +38,7 @@ p{
     background-color: inherit;
 }
 .next-section:hover, .home:hover{
-    color: aquamarine;
-    text-decoration: none;
+    text-decoration: underline white;
 }
 ul{
     padding:  0px 40px 40px 40px;
@@ -50,6 +46,7 @@ ul{
 h1{
     color: rgb(27, 150, 27);
     text-align: center;
+    text-decoration:underline;
     margin-top: 70px;
 }
 li{ 

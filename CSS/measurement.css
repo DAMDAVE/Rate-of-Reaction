@@ -18,9 +18,6 @@ body{
      margin-left: 23.77%;
  }
  .bg-body-tertiary{
-     width: 100%;
-     position: absolute;
-     height: 50px;
      background-image: linear-gradient(rgb(218, 135, 34) 5%, rgb(218, 238, 127) )  !important;
  
  }
@@ -60,6 +57,22 @@ body{
  li{
      font-size: 20px;
  }
+ @media(min-width:576px) {
+    .space2{
+        margin-left: 33%;
+    }
+    .space3{
+        text-align: 23.77%;
+    }
+}
+@media(min-width:768px){
+    .space2{
+        margin-left: 43%;
+    }
+    .space3{
+        margin-left: 23.77%;
+    }
+}
  @keyframes move{
      0%{height: 80%; width: 0%;}
      50%{width: 100%;}

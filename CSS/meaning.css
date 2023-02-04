@@ -13,6 +13,7 @@ body{
     animation-duration: 5s;
 }
 .head{
+    text-decoration: underline;
     margin-top: 120px;
     color: #003;
 }
@@ -37,8 +38,15 @@ p{
     color: rgb(255, 255, 255);
     background-color: inherit;
 }
+.next-section:hover, .home:hover{
+    text-decoration: underline white;
+}
 .space2{
     margin-left: 33%;
+}
+.pspecial{
+    padding: 5px;
+    padding-left: 10px;
 }
 .space3{
     margin-left: 23.77%;
