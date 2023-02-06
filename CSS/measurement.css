@@ -1,27 +1,17 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
     background-color: rgb(234, 233, 189);
- }
- p{
-     padding-top: 10px;
-     font-size: 20px;
-     color: rgb(84, 82, 14);
- 
- }
- .absolute{
-     position: absolute;
- }
- .space1{
-     margin-left: 33%;
- }
- 
- .space2{
-     margin-left: 23.77%;
- }
- .bg-body-tertiary{
+}
+
+.bg-body-tertiary{
      background-image: linear-gradient(rgb(218, 135, 34) 5%, rgb(218, 238, 127) )  !important;
  
- }
- .material-symbols-outlined {
+}
+
+.material-symbols-outlined {
      margin-top:10;
      font-weight: 1px;
    font-variation-settings:
@@ -29,51 +19,50 @@ body{
    'wght' 400,
    'GRAD' 0,
    'opsz' 48
- }
- .next-section, .home{
+}
+
+.next-section, .home{
      color: rgb(255, 255, 255);
      background-color: inherit;
- }
- .next-section:hover, .home:hover{
+}
+
+.next-section:hover, .home:hover{
      color: rgb(164, 210, 122);
      text-decoration: none;
- }
- ol{
-     padding:  0px 40px 40px 40px;
- }
- h1{
-     color: rgb(145, 163, 24);
-     text-align: center;
-     margin-top: 70px;
- }
- .div, .last-div{
+}
+
+.div, .last-div{
      margin-top: 10px;
      width: 90%;
      margin-bottom: 20px;
      animation-name: move;
      animation-duration: 5s;
      animation-delay: 0s;
- }
- li{
+}
+
+h1{
+     color: rgb(145, 163, 24);
+     text-align: center;
+     margin-top: 70px;
+}
+
+ol{
+     padding:  0px 40px 40px 40px;
+}
+
+p{
+    padding-top: 10px;
+    font-size: 20px;
+    color: rgb(84, 82, 14);
+
+}
+
+
+li{
      font-size: 20px;
- }
- @media(min-width:576px) {
-    .space2{
-        margin-left: 33%;
-    }
-    .space3{
-        text-align: 23.77%;
-    }
 }
-@media(min-width:768px){
-    .space2{
-        margin-left: 43%;
-    }
-    .space3{
-        margin-left: 23.77%;
-    }
-}
- @keyframes move{
+
+@keyframes move {
      0%{height: 80%; width: 0%;}
      50%{width: 100%;}
- }
+}

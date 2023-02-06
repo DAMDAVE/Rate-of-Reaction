@@ -1,61 +1,40 @@
 body{
     background-color: rgb(248, 222, 241);
  }
- p{
-     padding-top: 10px;
-     font-size: 20px;
-     color: rgb(84, 14, 77);
  
- }
- em{
-    text-align: center;
-    color: plum;
-    font-size: 20px;
- }
- .absolute{
-     position: absolute;
- }
- .space1{
-    margin-left: 2%;
- }
- .space2{
-     margin-left: 33%;
- }
- 
- .space3{
-     margin-left: 23.77%;
-     margin-right: 2%;
- }
- .pcol{
-    padding: 35px;
- }
  .bg-body-tertiary{
      background-image: linear-gradient(rgb(54, 5, 48) 5%, rgb(226, 118, 211) )  !important;
  
  }
- .material-symbols-outlined {
-     margin-top:10;
-     font-weight: 1px;
-   font-variation-settings:
-   'FILL' 0,
-   'wght' 400,
-   'GRAD' 0,
-   'opsz' 48
- }
+ 
  .next-section, .home{
-     color: rgb(216, 179, 205);
-     background-color: inherit;
- }
- .next-section:hover, .home:hover{
-     text-decoration: underline;
-     text-decoration-color: white;
- }
+    color: rgb(216, 179, 205);
+    background-color: inherit;
+}
+
+.next-section:hover, .home:hover{
+    color: rgb(216, 179, 205);
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+ .material-symbols-outlined {
+    margin-top:10;
+    font-weight: 1px;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
  h1{
     text-decoration: underline;
      color: rgb(138, 14, 115);
      text-align: center;
      margin-top: 85px;
  }
+
  .div{
     background-image: linear-gradient(120deg,rgb(211, 132, 211) 75%, rgb(87, 13, 87));
      margin-top: 10px;
@@ -66,15 +45,29 @@ body{
      animation-duration: 5s;
      animation-delay: 0s;
  }
- li{
-    text-align: left;
-     font-size: 17px;
+
+ p{
+     padding-top: 10px;
+     font-size: 20px;
+     color: rgb(84, 14, 77);
+ 
+ } 
+ 
+ .pcol{
+    padding: 25px;
  }
- hr{
-    color: rgb(54, 5, 48);
-    margin-left: 25%;
-    width: 50%;
+
+ em{
+    text-align: center;
+    color: rgb(102, 88, 88);
+    font-size: 20px;
  }
+
+.div3{
+  background-image: none;
+  box-shadow: none;
+}
+
  img{
     border-radius: 15px;
     margin-left: 10%;
@@ -82,22 +75,7 @@ body{
     height: 80%;
     width: 80%;
  }
- @media(min-width:576px) {
-    .space2{
-        margin-left: 40%;
-    }
-    .space3{
-        text-align: right;
-    }
-}
-@media(min-width:768px){
-    .space2{
-        margin-left: 33%;
-    }
-    .space3{
-        margin-left: 35.77%;
-    }
-}
+ 
  @keyframes move{
      0%{height: 80%; width: 0%;}
      50%{width: 100%;}
