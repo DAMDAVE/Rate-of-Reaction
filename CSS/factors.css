@@ -37,20 +37,6 @@ p{
   'opsz' 48
 }
 
-.inline{
-    display: inline;
-}
-
-.first{
-    width: 10%;
-    margin-left: 40%;
-}
-
-.second{
-    position: relative;
-    left: 30%;
-}
-
 .next-section, .home{
     color: rgb(252, 253, 250);
     background-color: inherit;
